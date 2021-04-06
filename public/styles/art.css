@@ -1,0 +1,8 @@
+.navbar
+{
+    max-width:1600px;
+    
+    border:10px solid white;
+    background-color:lightseagreen;
+    padding:15px;
+}
