@@ -9,7 +9,7 @@
 <div class="music-container">
     <div class="music-header">
             <div class="title">
-                <p style="color:white"><a href="https://en.wikipedia.org/wiki/The_Music">Music</a></p>
+                <p><a href="https://en.wikipedia.org/wiki/The_Music">Music</a></p>
             </div>
     </div>
     <div class="music-playlist">
