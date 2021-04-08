@@ -22,18 +22,11 @@ body{
     margin-top: 20px;
     margin-left: 80px;
     margin-bottom: 20px;
-
-    padding-left: 630px;
-
-    
-}
-.music-header .title a
-{
-        text-align: center;
+    text-align: center;
     text-decoration-color: white;
-        cursor: pointer;
-    font-size:50px;
-    color: white;
+    padding-left: 630px;
+    
+    font-size:50px
     
 }
 .music-playlist{
@@ -143,4 +136,6 @@ hr{
     margin-bottom: 10px;
     color:azure;
 }
+
+
 
