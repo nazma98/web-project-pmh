@@ -6,14 +6,14 @@
         <link rel="stylesheet" href="styles/styleMovies.css">
 <body>
 
-<div class="music-container">
-    <div class="music-header">
+<div class="movie-container">
+    <div class="movie-header">
             <div class="title">
-                <p>Music</p>
+                <p>Movie</p>
             </div>
     </div>
-    <div class="music-playlist">
-        <div class="music-menu text-center">
+    <div class="movie-playlist">
+        <div class="movie-menu text-center">
             <div class="menu">
                 <ul>
                     <li><a href="https://www.youreducationportal.com/motivational-bengali-songs/">Bangla Motivational Songs</a></li>
@@ -24,13 +24,39 @@
             </div>
         </div>
     </div>
-    <div class="music-box">
-        <div class="music-info">
-            <div class="music-img">
+    <div class="movie-box">
+        <div class="movie-info">
+            <div class="what is movie">
+                <p>What is movie?</p> 
+            </div>
+
+            <div class="movie-answer">
+                <p>Movie is a way of telling stories or share experience.</p>
+
+            </div>
+
+            <i class="fa fa-ellipsis-v"></i>
+        </div><hr>
+
+                <div class="movie-info">
+                                <div class="what is movie">
+                <p>What is movie?</p> 
+            </div>
+
+            <div class="movie-answer">
+                <p>Movie is a way of telling stories or share experience.</p>
+
+            </div>
+
+                    <i class="fa fa-ellipsis-v"></i>
+                </div><hr>
+
+        <div class="movie-info">
+            <div class="movie-img">
                 <img src="images/Aklacholore.jpg"> 
             </div>
 
-            <div class="music-name">
+            <div class="movie-name">
                 <h6>Akla Cholo Re</h6>
                 <p>Singer:Jesleen Royal & Music Director:Amit Trivedi</p>
                 <audio controls>
@@ -40,57 +66,36 @@
 
             <i class="fa fa-ellipsis-v"></i>
         </div><hr>
-        <div class="music-info">
-            <div class="music-img">
-                <img src="images/Loveyouzindagi.jpg"> 
+   
+        <div class="movie-info">
+            <div class="movie-img">
+                <img src="images/Aklacholore.jpg"> 
             </div>
-            <div class="music-name">
-                <h6>Love You Zindagi</h6>
-                <p>Singer:Jesleen Royal Music Director:Amit Trivedi</p>
 
+            <div class="movie-name">
+                <h6>Akla Cholo Re</h6>
+                <p>Singer:Jesleen Royal & Music Director:Amit Trivedi</p>
                 <audio controls>
                     <source src="audio/Letitgo.mp3">
                 </audio>
             </div>
+
             <i class="fa fa-ellipsis-v"></i>
         </div><hr>
-        <div class="music-info">
-            <div class="music-img">
-                <img src="images/Letitgo.jpg"> 
+    
+        <div class="movie-info">
+            <div class="movie-img">
+                <img src="images/Aklacholore.jpg"> 
             </div>
-            <div class="music-name">
-                <h6>Let It Go</h6>
-                    <p>Single Name & Music Director</p>
-                    <audio controls>
-                        <source src="audio/Letitgo.mp3">
-                    </audio>
-            </div>
-            <i class="fa fa-ellipsis-v"></i>
-        </div><hr>
-        <div class="music-info">
-            <div class="music-img">
-                <img src="images/Fightsong.jpg"> 
-            </div>
-            <div class="music-name">
-                <h6>Fight Song</h6>
-                <p>Single Name & Music Director</p>
+
+            <div class="movie-name">
+                <h6>Akla Cholo Re</h6>
+                <p>Singer:Jesleen Royal & Music Director:Amit Trivedi</p>
                 <audio controls>
                     <source src="audio/Letitgo.mp3">
                 </audio>
             </div>
-            <i class="fa fa-ellipsis-v"></i>
-        </div><hr>
-        <div class="music-info">
-            <div class="music-img">
-                <img src="images/Invisible.jpg"> 
-            </div>
-            <div class="music-name">
-                <h6>Invisible</h6>
-                <p>Single Name & Music Director</p>
-                <audio controls>
-                    <source src="audio/Letitgo.mp3">
-                </audio>
-            </div>
+
             <i class="fa fa-ellipsis-v"></i>
         </div><hr>
     </div>

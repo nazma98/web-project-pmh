@@ -24,7 +24,33 @@
             </div>
         </div>
     </div>
+    
     <div class="music-box">
+        <div class="music-info">
+            <div class="what is movie">
+                <p>What is movie?</p> 
+            </div>
+
+            <div class="music-answer">
+                <p>Movie is a way of telling stories or share experience.</p>
+
+            </div>
+
+            <i class="fa fa-ellipsis-v"></i>
+        </div><hr>
+
+                <div class="music-info">
+                                <div class="what is movie">
+                <p>What is movie?</p> 
+            </div>
+
+            <div class="music-answer">
+                <p>Movie is a way of telling stories or share experience.</p>
+
+            </div>
+
+                    <i class="fa fa-ellipsis-v"></i>
+                </div><hr>
         <div class="music-info">
             <div class="music-img">
                 <img src="images/Aklacholore.jpg"> 
