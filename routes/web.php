@@ -42,5 +42,9 @@ Route::get('astro', function () {
 Route::get('music', function () {
     return view('pages.music');
 });
+Route::get('movies', function () {
+    return view('pages.movies');
+});
 
 Route::match(['get', 'post'], '/botman', [BotManController::class, 'start']);
+
