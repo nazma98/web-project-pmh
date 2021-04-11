@@ -1,28 +1,56 @@
 @extends('layouts.master')
-
 @section('content')
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" >
+       <!-- <link rel="stylesheet" href="styles/style.css">-->
+        <link rel="stylesheet" href="styles/styleMusic.css">
+<body>
 
 <div class="music-container">
     <div class="music-header">
-        <i class="fa fa-angle-left"></i>
             <div class="title">
-                <p>Music</p>
+                <p><a href="https://en.wikipedia.org/wiki/The_Music">Music</a></p>
             </div>
-        <i class="fa fa-search"></i>
     </div>
     <div class="music-playlist">
         <div class="music-menu text-center">
             <div class="menu">
                 <ul>
-                    <li><a href="#">Songs</a></li>
-                    <li><a href="#">Albums</a></li>
-                    <li><a href="#">Artists</a></li>
-                    <li><a href="#">Genres</a></li>
+                    <li><a href="https://www.youreducationportal.com/motivational-bengali-songs/">Bangla Motivational Songs</a></li>
+                    <li><a href="https://www.developgoodhabits.com/motivational-songs/">English Motivational Songs</a></li>
+                    <li><a href="https://www.popxo.com/2020/08/motivational-hindi-songs/">Hindi Motivational Songs</a></li>
+                    <li><a href="https://siachenstudios.com/lists/10-best-sufi-songs-you-must-listen-pt-1/">Sufi Motivational Songs</a></li>
                 </ul>
             </div>
         </div>
     </div>
+    
     <div class="music-box">
+        <div class="music-info">
+            <div class="what is movie">
+                <p>What is movie?</p> 
+            </div>
+
+            <div class="music-answer">
+                <p>Movie is a way of telling stories or share experience.</p>
+
+            </div>
+
+            <i class="fa fa-ellipsis-v"></i>
+        </div><hr>
+
+                <div class="music-info">
+                                <div class="what is movie">
+                <p>What is movie?</p> 
+            </div>
+
+            <div class="music-answer">
+                <p>Movie is a way of telling stories or share experience.</p>
+
+            </div>
+
+                    <i class="fa fa-ellipsis-v"></i>
+                </div><hr>
         <div class="music-info">
             <div class="music-img">
                 <img src="images/Aklacholore.jpg"> 
@@ -44,7 +72,7 @@
             </div>
             <div class="music-name">
                 <h6>Love You Zindagi</h6>
-                <p>SInger:Jesleen Royal Music Director:Amit Trivedi</p>
+                <p>Singer:Jesleen Royal Music Director:Amit Trivedi</p>
 
                 <audio controls>
                     <source src="audio/Letitgo.mp3">
@@ -57,7 +85,7 @@
                 <img src="images/Letitgo.jpg"> 
             </div>
             <div class="music-name">
-                <h6>Single Song Title</h6>
+                <h6>Let It Go</h6>
                     <p>Single Name & Music Director</p>
                     <audio controls>
                         <source src="audio/Letitgo.mp3">
@@ -70,7 +98,7 @@
                 <img src="images/Fightsong.jpg"> 
             </div>
             <div class="music-name">
-                <h6>Single Song Title</h6>
+                <h6>Fight Song</h6>
                 <p>Single Name & Music Director</p>
                 <audio controls>
                     <source src="audio/Letitgo.mp3">
@@ -83,7 +111,7 @@
                 <img src="images/Invisible.jpg"> 
             </div>
             <div class="music-name">
-                <h6>Single Song Title</h6>
+                <h6>Invisible</h6>
                 <p>Single Name & Music Director</p>
                 <audio controls>
                     <source src="audio/Letitgo.mp3">
@@ -94,27 +122,7 @@
     </div>
 
 </div>
-           <!-- <div class="music-play">
-              <div class="play-image">
-                  <img src="Images/Music/Moana.jpg">
-                </div>
-                <div class="play-controls">
-                    <div class="controls">
-                        <div class="song-name">
-                            <h5>How Far I Will Go</h5>
-                            <p>Alessia Cara</p>
-                        </div>
-                        <div class="play-icon">
-                            <i class="fa fa-step-backward"></i>
-                            <i class="fa fa-play"></i>
-                            <i class="fa fa-step-forward"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                
-        </div>-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" >
-       <!-- <link rel="stylesheet" href="styles/style.css">-->
-        <link rel="stylesheet" href="styles/styleMusic.css">    
-@endsection
+     @endsection
+
+   </body>             
+   

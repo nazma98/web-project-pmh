@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BotManController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,8 +18,9 @@ Route::get('/', function () {
     return view('pages.home');
 });
 
-//Route::get('/', function () {
-//    return view('welcome');});
+Route::get('bot', function () {
+    return view('pages.chatbot');
+});
 Route::get('arts', function () {
     return view('pages.arts');
 });
@@ -35,8 +37,10 @@ Route::get('reading', function () {
     return view('pages.reading');
 });
 Route::get('astro', function () {
-    return view('pages.astro');
+    return view('pages.testAst');
 });
 Route::get('music', function () {
     return view('pages.music');
 });
+
+Route::match(['get', 'post'], '/botman', [BotManController::class, 'start']);

@@ -42,7 +42,7 @@
         <a class="nav-link" href="#Conversation">Conversation <span class="sr-only">(current)</span></a>
         <ul>
           <li><a href="Story telling">Story<br>telling</a></li>
-          <li><a href="normalchat.html">Normal<br>chat</a></li>
+          <li><a href="/bot">Normal<br>chat</a></li>
           <li><a href="counsiling">Counsiling</a></li>
         </ul>
       </li>

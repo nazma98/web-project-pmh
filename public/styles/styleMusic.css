@@ -1,15 +1,12 @@
 body{
     margin:0;
     padding:0;
-    background-color: #ccc !important;
-    color:#fff !important;
+
+    color:#fff;
 }
 .music-container{
     font-family: sans-serif;
     width:100%;
-    height:fit-content;
-    display: block;
-    position:absolute;
     background-image:linear-gradient(#8d8cff,#9b3838);
 }
 .music-header{
@@ -18,22 +15,6 @@ body{
     border-bottom: 1px solid #555;
     background-image: linear-gradient(#8c8cff,#9b3838);
 }
-.music-header .fa-angle-left{
-    float:left;
-    margin-top: 40px;
-    margin-left: 40px;
-    cursor: pointer;
-    font-size: 35px;
-    
-}
-.music-header .fa-search{
-    float:right;
-    margin-top: 50px;
-    margin-right: 40px;
-    cursor: pointer;
-    font-size:30px
-    
-}
 .music-header .title{
     width:500px;
     height: 100px;
@@ -41,10 +22,18 @@ body{
     margin-top: 20px;
     margin-left: 80px;
     margin-bottom: 20px;
-    text-align: center;
+
     padding-left: 630px;
-    cursor: pointer;
-    font-size:50px
+
+    
+}
+.music-header .title a
+{
+        text-align: center;
+    text-decoration-color: white;
+        cursor: pointer;
+    font-size:50px;
+    color: white;
     
 }
 .music-playlist{
@@ -58,8 +47,8 @@ body{
     
 }
 .menu{
-    width:800px;
-    height: 50px;
+    width:1200px;
+    height: 40px;
     margin:10px auto;
     border-radius: 10px;
     border: 3px solid #fff;
@@ -68,7 +57,7 @@ body{
 
 }
 .menu ul{
-    font-size:30px;
+    font-size:20px;
     padding:initial;
     
 }
@@ -90,7 +79,7 @@ body{
 }
 .music-box{
     width:100%;
-    height: 1000px;
+    height: 100%;
     overflow:scroll;
     overflow-x: hidden;
     
@@ -154,72 +143,4 @@ hr{
     margin-bottom: 10px;
     color:azure;
 }
-<!--.music play{
-    width: 100%;
-    height: 60px;
-    display: flex;
-    border-bottom: 1px solid #555;
-    background-image:linear-gradient(#8d8cff,#9b3838);
-    
-}
-.play-image img{
-    width:180px;
-    height: 160px;
-    margin: 5px 10px;
-    border-radius: 5px;
-    
-}
-.play-controls{
-    width: 100%;
-    height: 60px;;
-    
-}
-.controls{
-    width: 1500px;
-    height: 50px;
-    display: flex;
-}
-.play-image img{
-    width:180px;
-    height: 160px;
-    margin: 5px 10px;
-    border-radius: 5px;
-    
-}
-.song-name{
-    width: 1000px;
-    height: 50px;
-   
-}
 
-.song-name h5{
-    margin-top: 20px;
-    margin-left: 10px;
-    font-size: 30px;
-    font-weight: normal;
-    letter-spacing: 0.5px;
-    line-height: 1px;
-}
-.song-name p{
-    font-size:28px;
-    margin-left: 20px;
-    letter-spacing: 0.5px;
-    color: #ccc;
-    
-}
-.play-icon{
-    width: 150px;
-    height: 50px;
-}
-.play-icon .fa{
-    width: 100px;
-    height: 50px;
-    float: right;
-    font-size: 20px;
-    color: #000;
-    border-radius: 50px;
-    background-color: grey;
-    margin: 15px 13px 0 auto;
-    padding: 10px 10px 10px 10px;
-    cursor: pointer;
-}-->
