@@ -9,9 +9,9 @@
 <div class="movie-container">
     <div class="movie-header">
             <div class="title">
-                <p>Movie</p>
+                <p><a href="https://en.wikipedia.org/wiki/The_Movie">Movie</a></p>
             </div>
-    </div>
+     </div>
     <div class="movie-playlist">
         <div class="movie-menu text-center">
             <div class="menu">
@@ -25,7 +25,15 @@
         </div>
     </div>
     <div class="movie-box">
-        <div class="movie-info">
+            <div class="what-is-movie">
+                <p>Why do we watch movies?</p> <br>
+            </div>
+            <div class="movie-answer">
+                <p>Movie is a way of telling stories or share experience.We all agree movies allow us to escape—and there’s value in that—but it’s more than simple escapism. Movies take us to places we’ve never been and inside the skin of people quite different from ourselves. They offer us a window onto the wider world, broadening our perspective and opening our eyes to new wonders.</p>
+
+            </div>
+            <hr>
+                
             <div class="what is movie">
                 <p>What is movie?</p> 
             </div>
@@ -33,23 +41,8 @@
             <div class="movie-answer">
                 <p>Movie is a way of telling stories or share experience.</p>
 
-            </div>
-
-            <i class="fa fa-ellipsis-v"></i>
-        </div><hr>
-
-                <div class="movie-info">
-                                <div class="what is movie">
-                <p>What is movie?</p> 
-            </div>
-
-            <div class="movie-answer">
-                <p>Movie is a way of telling stories or share experience.</p>
-
-            </div>
-
-                    <i class="fa fa-ellipsis-v"></i>
-                </div><hr>
+            </div>      
+                <hr>
 
         <div class="movie-info">
             <div class="movie-img">
@@ -101,8 +94,9 @@
     </div>
 
 </div>
-     @endsection
+   
 
-   </body>             
+   </body>    
+  @endsection
               
    

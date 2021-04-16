@@ -1,0 +1,156 @@
+.container{
+    background-color:blanchedalmond; 
+    padding:10px;
+    position: center;
+    
+ }
+ .container-fluid{
+     border:3px solid blue;
+     background-color:cornsilk;
+     padding:15px;
+ }
+.col-md-10 mb-8{
+    position: center;
+}
+ 
+ 
+ html,body{
+     height:100%;
+     margin:0;
+     font-family: 'open Sans', sans-serif;
+     line-height: 180%;
+     color:black;
+     background-color:cornsilk;
+     text-align:center;
+ 
+ }
+ .img1{
+     background: url("https://img.freepik.com/free-vector/raised-hands-volunteering-blue-background-vector_77417-471.jpg?size=626&ext=jpg");
+     min-height:100%;
+ }
+ 
+ .img2{
+     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQgjQ0bU3ffg1n3oDTPBLMelGES1aq8e0RPg&usqp=CAU");
+     min-height: 60%;
+ }
+ .img3{
+
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFpifSShqvweHyI9ZBphDD8tILHgeDYvuPbA&usqp=CAU");
+    min-height: 100%;
+ }
+ .img4{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFpifSShqvweHyI9ZBphDD8tILHgeDYvuPbA&usqp=CAU");
+
+    min-height: 100%;
+ }
+ .img5{
+
+    background:url("H:\teacher2.png");
+   
+    min-height: 100%;
+    
+ }
+ .img6{
+    background:url("https://image.shutterstock.com/image-vector/young-girl-helps-old-woman-260nw-420704905.jpg");
+   
+    min-height: 100%;
+    
+
+ }
+ .img7{
+    background:url("H:\myfood.png");
+   
+    min-height: 100%;
+
+ }
+ .img1,.img2,.img3,.img4,.img5,.img6,.img7 {
+    position: relative;
+    opacity: .85;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+ 
+ section{
+     padding :50px 80px;
+     position: center;
+ }
+ .heading{
+ position: absolute;
+ top: 50%;
+ font-size:650%;
+ text-shadow: 0 0 15px #000;
+ width: 100%;
+ text-transform: uppercase;
+ letter-spacing:8px;
+
+ }
+ .navbar
+ {
+     max-width:1600px;
+     max-height:600px;
+     background-color:wheat;
+     padding:15px;
+     text-align:center;
+     text-decoration-color: blue;
+     
+ }
+ .sticky {
+     position: fixed;
+     top: 0;
+     width: 100%;
+   }
+   
+ .img-container{
+     text-align: center;
+     position: center;
+   }
+   .p{
+       text-align:center;
+   }
+ 
+ .navbar:a
+ {
+     max-width:1600px;
+     max-height:800px;
+     border:15px solid white;
+     background-color:wheat;
+     padding:15px;
+     text-align:center;
+     text-decoration-color: blue;
+ }
+ #a
+ {
+     max-width:1600px;
+     max-height:800px;
+     
+ }
+ .p{
+     text-align:center;
+ }
+ .navbar:container{
+     
+     max-width:1600px;
+     max-height:1000;
+     border:15px solid white;
+     background-color:blueviolet;
+     padding:15px;
+ 
+ }
+ .li{
+     text-decoration-color: crimson;
+     background-color: darkolivegreen;
+     text-decoration-style: solid;
+     color:blue;
+     text-align: center;
+     
+ }
+ .ul{
+     color:brown;
+     text-align: center;
+     position: absolute;
+ }
+.list-container{
+    position: right;
+}

@@ -122,7 +122,7 @@
     </div>
 
 </div>
-     @endsection
 
-   </body>             
+   </body>
+  @endsection
    

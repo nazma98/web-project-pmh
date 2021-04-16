@@ -45,6 +45,18 @@ Route::get('music', function () {
 Route::get('movies', function () {
     return view('pages.movies');
 });
+Route::get('dance', function () {
+    return view('pages.movies');
+});
+Route::get('volunteering', function () {
+    return view('pages.volun2');
+});
+Route::get('FirstAid', function () {
+    return view('pages.firstaid');
+});
+Route::get('todolist', function () {
+    return view('pages.todolist');
+});
 
 Route::match(['get', 'post'], '/botman', [BotManController::class, 'start']);
 

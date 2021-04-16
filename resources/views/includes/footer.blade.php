@@ -6,7 +6,7 @@
             </div>
             <div class="m-left">
                 <!--HEADING-->
-                <h2>NEED HELP?</h2>
+                <h2 style="color:white">NEED HELP?</h2>
                 <!--FONT AWESOME ICONS OF LOCATION-->
                 <div class="location"> <!--Nth child-->
                     <span>
@@ -29,7 +29,7 @@
             </div>
             <div class="m-right">
                 <!--HEADING-->
-                <h2>FOR CONTACT</h2>
+                <h2 style="color:white">FOR CONTACT</h2>
                 <!--FONT AWESOME ICONS OF EMAIL AND PHONE-->
                 <div class="contact">
                     <span>
@@ -53,7 +53,7 @@
             </div>
             <div class="s-icons">
                 <!--HEADING-->
-                <h2>BE SOCIAL</h2>
+                <h2 style="color:white">BE SOCIAL</h2>
                 <!--SOCIAL ICONS-->
                 <div class="s-box">
                     <!--ICON FOR FACEBOOK-->
