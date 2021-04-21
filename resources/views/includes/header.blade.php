@@ -14,11 +14,12 @@
             <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
 	  <li class="nav-item active">
-        <a class="nav-link" href="#Entertainment">Entertainment <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#Entertainment">How To Motivate<span class="sr-only">(current)</span></a>
                   <ul>
-          <li><a href="/music">Music</a></li>
-          <li><a href="/movies">Movies</a></li>
-          <li><a href="/dance">Videos</a></li>
+          <li><a href="/music">Music For<br>Motivation</a></li>
+          <li><a href="/movies">Movies For<br>Motivation</a></li>
+          <li><a href="/svideo">Videos For<br>Motivation</a></li>
+        <li><a href="/game">Games For<br>Motivation</a></li>
         </ul>
       </li>
 	  <li class="nav-item active">
@@ -42,9 +43,9 @@
 	  <li class="nav-item active">
         <a class="nav-link" href="#Conversation">Conversation <span class="sr-only">(current)</span></a>
         <ul>
-          <li><a href="Story telling">Story<br>telling</a></li>
+          <li><a href="/Story_telling">Share To<br>Inspire</a></li>
           <li><a href="/bot">Normal<br>chat</a></li>
-          <li><a href="counsiling">Counsiling</a></li>
+          <li><a href="/counsiling">Counsiling</a></li>
         </ul>
       </li>
 	  <li class="nav-item active">
@@ -52,7 +53,7 @@
         <ul>
             <li><a href="/todolist">To-Do-List</a></li>
           <li><a href="/FirstAid">First Aid</a></li>
-          <li><a href="Crafts">Crafts</a></li>
+            <li><a href="/tvideo">Videos</a></li>
         </ul>
       </li>
 	  <li class="nav-item active">

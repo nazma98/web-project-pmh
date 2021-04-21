@@ -30,10 +30,8 @@ Route::get('blogs', function () {
 Route::get('news', function () {
     return view('pages.news');
 });
+
 Route::get('poems', function () {
-    return view('pages.poems');
-});
-Route::get('reading', function () {
     return view('pages.reading');
 });
 Route::get('astro', function () {
@@ -45,8 +43,8 @@ Route::get('music', function () {
 Route::get('movies', function () {
     return view('pages.movies');
 });
-Route::get('dance', function () {
-    return view('pages.movies');
+Route::get('svideo', function () {
+    return view('pages.videos');
 });
 Route::get('volunteering', function () {
     return view('pages.volun2');
@@ -57,6 +55,37 @@ Route::get('FirstAid', function () {
 Route::get('todolist', function () {
     return view('pages.todolist');
 });
+Route::get('game', function () {
+    return view('pages.game');
+});
+Route::get('sudoko', function () {
+    return view('pages.sudoko');
+});
 
+Route::get('Story_telling', function () {
+    return view('pages.storytelling');
+});
+Route::get('/share', function () {
+    return view('pages.shareboardindex');
+});
+Route::get('/shares', function () {
+    return view('pages.shareboardadd');
+});
+Route::get('/tvideo', function () {
+    return view('pages.tvideo');
+});
+Route::get('/donation', function () {
+    return view('pages.donation');
+});
+Route::get('/steps', function () {
+    return view('pages.steps');
+});
+Route::get('/steps2', function () {
+    return view('pages.steps2');
+});
+
+    Route::get('/counsiling', function () {
+    return view('pages.counselling');
+});
 Route::match(['get', 'post'], '/botman', [BotManController::class, 'start']);
 

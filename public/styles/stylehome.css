@@ -16,18 +16,18 @@
     text-align: center;
 }
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 0px 0px 10px 0px;
   }
   h2 {
     font-size: 24px;
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 p{
     color: white;
@@ -44,13 +44,20 @@ h4 {
     padding: auto;
     padding-top: 5%;
     padding-bottom: 5%;
-    background: linear-gradient(45deg, blue, orange);
+    background: linear-gradient(45deg, purple, pink);
+       margin: 10px 0px 0px 0px;
+    
   }
   .container-fluid {
     padding: 60px 50px;
   }
+.bg2-grey{
+    background: linear-gradient(45deg, purple, pink);
+    margin: 100px 0px 0px 0px;
+}
   .bg-grey {
        background: linear-gradient(45deg, pink, purple);
+      margin: 100px 0px 0px 0px;
   }
   .logo-small {
     color: #a30d05;

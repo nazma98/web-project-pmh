@@ -1,0 +1,29 @@
+body{
+    background: url(3811637.jpg) fixed center;
+
+}
+
+.box{
+    
+    margin: 30px;
+    position:relative;
+    width: 100%;
+    padding: 50px;
+    background: rgba(135, 77, 158, 0.9);
+
+    
+}
+
+p{
+    color: aliceblue;
+}
+ul{
+    color: white;
+}
+
+h1
+{
+    text-decoration-style: wavy;
+    color: rgba(249, 250, 251, 0.986);
+    text-shadow: 3px 3px 7px rgb(224, 161, 224);
+}
