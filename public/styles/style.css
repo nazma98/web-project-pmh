@@ -1,6 +1,6 @@
 .mynavbar{
     background:url(red.jpg) fixed center;
-    font-family:Baloo;!important;
+    font-family:Baloo!important;
 
 }
 .collapse navbar-collapse{
@@ -8,7 +8,10 @@
 }
 .navbar-nav ml-auto
 {
-    float: right;!important;
+    float: right!important;
+	background-image: linear-gradient(to left, rgba(20,20,20,500), rgba(0,255,255,255));
+
+	
 }
 .cl{
 	color: white;  
@@ -69,7 +72,7 @@ img{
 	float:left;
 	padding: 12px 30px;
 	text-transform:uppercase;
-	font-family:Baloo;!important;
+	font-family:Baloo!important;
     text-decoration: none;
     color: #fff;
 }

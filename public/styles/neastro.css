@@ -5,7 +5,7 @@ body{
 
 .box{
     
-    margin: 30px;
+    
     position:relative;
     width: fit-content;
     padding: 50px;
@@ -13,14 +13,24 @@ body{
     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
     
 }
+  
 
 p{
     color: aliceblue;
+    font-size: 120%;
 }
-
+.astro{
+    width: 200%;
+    height: 200%;
+    
+}
 h1
 {
     text-decoration-style: wavy;
     color: rgba(249, 250, 251, 0.986);
     text-shadow: 3px 3px 7px rgb(224, 161, 224);
+}
+.p1{
+    
+    display: flex;
 }

@@ -1,0 +1,120 @@
+
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://hdwallpaperim.com/wp-content/uploads/2017/08/22/344070-space-stars-helix_nebula.jpg);
+    background-position: center;
+    background-size: cover;font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+   
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+   /* margin: 100px;*/
+    flex-basis: 40%;
+}
+
+h1{
+    margin-left: 20px;
+    color: white;
+    font-size: 100px;
+}
+
+p{
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+    /*line-height:20px;*/
+}
+
+button{
+    width: 150px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 12px 0;
+    background:white ;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 20%;
+    
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 100px 15px;
+    background-position:center ;
+    background-size: cover;
+    color: white;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA_f0dO7UxQRaav88cA7QwUfj70JCPyyujn9vQbei23-m7Du3xZXaG7OuUUpyR-PRajb8&usqp=CAU);
+    
+}
+
+.card2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzkfZ-eihgEfSoPcCvI-aQLeFPxH5uaMgvmmeQWcuurf1ExruWhUeZazUlHz6-W4VBl44&usqp=CAU);
+  
+}
+
+.card3{
+    background-image: url(https://www.cosmosup.com/wp-content/uploads/2014/03/What-are-we-learning-about-the-size-of-galaxies-700x325.jpg);
+    
+}
+
+.card4{
+    background-image: url(https://www.openthenews.com/wp-content/uploads/2021/01/black-hole-823x450.jpg);
+  
+}
+
+.card5{
+    background-image: url(https://i2-prod.birminghammail.co.uk/incoming/article19358694.ece/ALTERNATES/s615/1_main-Jupiter-Saturn.jpg);
+    
+}
+
+.card6{
+    background-image: url(https://i.pinimg.com/originals/d2/e0/3f/d2e03f5d2317515a47de2dcd72fb1aad.png);
+   
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    font-size: 110%;
+    text-shadow: 0 0 5px #999;
+}
+
+h2{
+    font-weight:bolder;
+}
+
+h4{
+    font-weight: bold;
+}
+
+.photography{
+    margin: 60px;
+    color: white;
+
+}

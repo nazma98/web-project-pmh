@@ -4,6 +4,11 @@ namespace App\Http\Controllers;
 use BotMan\BotMan\BotMan;
 use Illuminate\Http\Request;
 use BotMan\BotMan\Messages\Incoming\Answer;
+use BotMan\BotMan\Messages\Outgoing\Question;
+use BotMan\BotMan\Messages\Outgoing\Actions\Button;
+use BotMan\BotMan\Messages\Conversations\Conversation;
+
+
    
 class BotManController extends Controller
 {
@@ -41,7 +46,8 @@ class BotManController extends Controller
         
     }
 
-    public function start() {
+    public function start() 
+    {
         $botman = app('botman');
 
         $botman->hears('hi|hello|hola|hey', function($botman) {
@@ -65,13 +71,18 @@ class BotManController extends Controller
             $botman->reply('Aww! You\'re such a good soul!');
         });
 
-        $botman->hears('haha|haha|hehe', function($botman) {
+        $botman->hears('haha|hihi|hehe', function($botman) {
             $botman->reply('LoL! It\'s funny, right?');
         });
 
+        $botman->hears('what\'s up?|whassap?|whats up?|whatsup?|what you doing?|what\'re you doing?|How are you', function($botman) {
+            $botman->reply('I was sleeping. You just woke me up! *_*');
+        });
 
         $botman->listen();
     }
+    
+    
 
     
 }

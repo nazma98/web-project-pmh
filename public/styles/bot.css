@@ -1,0 +1,20 @@
+.col {
+   
+    flex-basis: 40%;
+}
+
+.con{
+    margin: 40px;
+    height: 50vh;
+}
+
+.h{
+    color: #022d31;
+    font-size: 100px;
+}
+
+.p{
+    color:#022d31;
+    font-size: 25px;
+    
+}
