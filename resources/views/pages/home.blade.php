@@ -39,7 +39,7 @@
 
 
 <!-- Container (About Section) -->
-<div id="about" class="container-fluid">
+<div id="about" class="container-fluid bg-grey">
   <div class="row">
     <div class="col-md-8 py-5 text-black">
       <h2>Our Goal</h2><br>
@@ -52,7 +52,7 @@
   </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid bg2-grey">
   <div class="row">
     <div class="col-sm-7">
         <video width="640" height="360" controls class="vid" >
@@ -73,7 +73,7 @@
 </div>
 
 <!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
+<div id="services" class="container-fluid text-center bg-grey">
   <h2>Explore Us</h2>
   <h4>What we provide</h4>
   <br>
@@ -115,7 +115,7 @@
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
+<div id="portfolio" class="container-fluid text-center bg2-grey">
   
   <h2>Quotes From Our Team</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
@@ -132,7 +132,7 @@
         <h4>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, architecto praesentium dolore laborum atque ex molestiae quae eos suscipit provident!"<br><span>Nazma Sarkar</span></h4>
       </div>
       <div class="item">
-        <h4>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, porro."<br><span>Rubaiya Reza</span></h4>
+        <h4>"Always Keep Smiling."<br><span>Rubaiya Reza Sohana</span></h4>
       </div>
       <div class="item">
         <h4>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, necessitatibus minus?"<br><span>Fariha Promi</span></h4>

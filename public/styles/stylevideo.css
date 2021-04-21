@@ -1,0 +1,158 @@
+body{
+    margin:0;
+    padding:0;
+    background: url(videos.jfif) fixed center;
+    color:#555;
+}
+.movie-container{
+    font-family: sans-serif;
+    width:100%;
+    
+}
+.movie-header{
+    width:100%;
+    height:100px;
+    border-bottom: 1px solid #555;
+    
+}
+.movie-header .title{
+    width:500px;
+    height: 100px;
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 630px;
+    cursor: pointer;
+    font-size:50px
+    
+}
+.movie-header .title a
+{
+        text-align: center;
+    text-decoration-color: white;
+        cursor: pointer;
+    font-size:50px;
+    color: white;
+    
+}
+.movie-playlist{
+    width: 100%;
+    /*height: 450px;*/
+}
+
+.movie-menu{
+    width:100%;
+    height:80px;
+    
+}
+.menu{
+    width:1200px;
+    height: 40px;
+    margin:10px auto;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    
+  
+
+
+}
+.menu ul{
+    font-size:20px;
+    padding:initial;
+    
+}
+.menu ul li{
+    list-style-type: none;
+    display:inline-block;
+    border-right: 3px solid #fff;
+    color: aliceblue;
+    
+}
+.menu ul li a{
+    color: white;
+    padding: 5px 15px 0px 15px;
+    text-decoration-color: white;
+    letter-spacing: 0.5px;
+}
+.menu ul li:last-child{
+    border-right: none;
+}
+.movie-box{
+    width:100%;
+    height: 100%;
+    overflow:scroll;
+    overflow-x: hidden;
+    
+}
+.movie-box::-webkit-scrollbar{
+    width:0px;
+    background: transparent;
+
+}
+
+.movie-box .fa-ellipsis-v{
+    margin-right: 40px;
+    margin-top: 80px;
+    font-weight: normal;
+    color:blueviolet;
+    cursor: pointer;
+    font-size: 50px;
+}
+.box2{
+    margin: 30px;
+    position:relative;
+    padding: 50px;
+    background: rgba(80, 800, 500, 0.8);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    
+}
+.movie-info{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    background: rgba(80, 800, 1000, 0.8);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+.movie-img{
+    width: 200px;
+    height: 180px;
+}
+.movie-img img{
+    width:180px;
+    height: 160px;
+    margin: 15px 5px 0px 10px;
+    padding: 1px;
+}
+.movie-name{
+    width: 100%;
+    padding: 20px 5px 0px 5px;
+    height: 180px;
+
+}
+.movie-name h6{
+    margin-top: 10px;
+    font-size: 32px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    line-height: 1px;
+}
+.movie-name p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    color:#fff;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    line-height: 1px;
+}
+hr{
+    width: 98%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color:azure;
+}
+

@@ -5,6 +5,7 @@
    <script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script>
     <link rel="stylesheet" href="styles\styletodolist.css">
 
+
 <body>
             <div class="box">
             <h1>Work On Yourself</h1>
@@ -20,7 +21,7 @@
 
     <div class="container">
         <div class="addTask">
-            <input type="text" placeholder="Add a Task" >
+            <input type="text" placeholder="Add a Task" name="name" >
             <button>Add</button>
         </div>
         <ol class="notcompleted">
@@ -29,7 +30,11 @@
     <ol class="completed">
           <h3>Completed</h3>
       </ol>
+        <br>
+        <br>
+
     </div>
+        
     <script>
         const input=document.querySelector('input');
         const btn=document.querySelector('.addTask > button');

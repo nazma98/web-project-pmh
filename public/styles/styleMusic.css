@@ -2,17 +2,21 @@ body{
     margin:0;
     padding:0;
     color:#fff;
+    background:url(music.jpg) fixed center;
 }
 .music-container{
     font-family: sans-serif;
     width:100%;
-    background-image:linear-gradient(#8d8cff,#9b3838);
+ 
+
+ 
 }
 .music-header{
     width:100%;
     height:100px;
     border-bottom: 1px solid #555;
-    background-image: linear-gradient(#8c8cff,#9b3838);
+    background: linear-gradient(to right, #1b1bb5,#02025e);
+
 }
 .music-header .title{
     width:500px;
@@ -43,6 +47,8 @@ body{
 .music-menu{
     width:100%;
     height:80px;
+  
+    
     
 }
 .menu{
@@ -51,7 +57,7 @@ body{
     margin:10px auto;
     border-radius: 10px;
     border: 3px solid #fff;
-    background-image:linear-gradient(#8c8cff,#9b3838);
+    background: linear-gradient(to right, #1b1bb5,#02025e);
 
 
 }
@@ -88,6 +94,14 @@ body{
     background: transparent;
 
 }
+.box2{
+    margin: 30px;
+    position:relative;
+    padding: 50px;
+    background: linear-gradient(to right, #1b1bb5,#02025e);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+    
+}
 
 .music-box .fa-ellipsis-v{
     margin-right: 40px;
@@ -101,6 +115,8 @@ body{
     width: 100%;
     height: 180px;
     display: flex;
+    background: linear-gradient(to right, #1b1bb5,#02025e);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
 }
 .music-img{
     width: 200px;

@@ -1,3 +1,6 @@
+
+@extends('layouts.master')
+@section('content')
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,38 +14,8 @@
     
 	</head>
 	<body>
-
- <nav class="navbar navbar-expand-lg navbar-dark mynavbar">
- <a class="navbar-brand" href="/poems"><img src="images/reading.jpg" alt="Logo" width="75px" height="75px"></a>
- <!-- <h1 style ="color:blanchedalmond font-family:crimson text-size:10"><i>Find your creativity</i></h1> -->
-  <!-- <h1><i>Find Your creativity</i></h1>  -->
- <!-- <h6 class="cl"> Burn your time <br>Find Your Creativity</h6> -->
-  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
-    <!-- <span class="navbar-toggler-icon"></span> -->
-  <!-- </button> -->
-  <h1><i>Read through your eyes,<br>evolution your mind</i></h1>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <ul id="menu">
-            <li class="nav-item active">
-            <a class="nav-link" href="/news">News <span class="sr-only">(current)</span></a>
-      </li>
-	  <li class="nav-item active">
-        <a class="nav-link" href="/poems">Poems <span class="sr-only">(current)</span></a>
-                  
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/blogs">Blogs <span class="sr-only">(current)</span></a>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/arts">Arts<span class="sr-only">(current)</span></a>
-                            </li>
-                            </li>
-                            </ul>
-                            </li>
-                        </div>
-                        </nav>
-                        
+<h1><i>Read through your eyes,<br>evolution your mind</i></h1>
+ 
 
 
 
@@ -64,7 +37,6 @@
             <li><i><a href="#Life">Life</a></i></li>
             <li><i><a href="#Struggle">Struggle</a></i></li>
             <li><i><a href="#Motivational">Motivatinal</a></i></li>
-            <li><i><a href="#Success">Success</a></i></li>
             <li><i><a href="#Self Love">Self Love</a></i></li>
              <li><i><a href="#Love"> Love</a></i></li>
 
@@ -110,6 +82,8 @@
                       </i></p>
     </div>
 </div>
+         </div>
+</div>
 <!-- MOtivational
  -->
  <div class="Motivational-container" id="Motivational">
@@ -132,6 +106,8 @@
                      Without  bringing mental health stable we can't <br>
                     Ever progress our physical health. </i></p>
                 </div>
+                </div>
+        </div>
                 </div>
 
 
@@ -157,6 +133,9 @@
                     
 
                 </i></p>
+                </div>
+                </div></div>
+                </div>
 
 
 
@@ -177,17 +156,15 @@
     You yourself are the King of your kingdom.<br>
     
     </p>
+                </div>
+                </div></div>
+                </div>
 
 
     <div class="love" id="Love">
-        <div class="container">
+        <div class="class-container">
    <div class="row align-items-center">
-            <div class="col-md-9 py-5 text-black">
-
-
-                <div class="navbar">
-                    <div class="container">
-                       
+            <div class="col-md-9 py-5 text-black">         
    <p><i> May the time will change,<br>
      may the Universe will destroy one day,<br>
      may be the moments will loss their ability<br>
@@ -198,14 +175,13 @@
     unexpected gift of anyone’s life...<br>
     Be the real you so that the happiness are bound to come into your door<br>
     </i></p>
-    </div>
-</div>
+       </div>
 </div>
 </div>
 
 
 
-<div class="container">
+
     <div class="class-container">
         <div class="row align-items-center">
             <div class="col-md-12 py-5 text-black">
@@ -227,6 +203,8 @@
     </div>
     </div>
     </div>
+
+
     
     <!-- <img src="Images\Home\study.jpg" alt="" width="100px" height="100px"></a -->
     <!-- <img src="Images\Home\study.jpg" width="640" height="360" class="image col-11"> -->
@@ -238,3 +216,4 @@
 
                         </body>
                         </html>
+@endsection
