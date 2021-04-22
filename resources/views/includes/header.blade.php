@@ -27,14 +27,14 @@
         <ul>
 <li><a href="/astro">Astronomy</a></li>
 <li><a href="/travelling">Travelling</a></li>
-<li><a href="/natureBeauties">Nature<br>Beauties</a></li>
+
 
         </ul>
       </li>
 	  <li class="nav-item active">
         <a class="nav-link" href="/reading">Reading <span class="sr-only">(current)</span></a>
         <ul>
-          <li><a href="/news">News</a></li>
+          
           <li><a href="/blogs">Blogs</a></li>
           <li><a href="/poems">Poem</a></li>
           <li><a href="/arts">Arts</a></li>
@@ -64,10 +64,10 @@
         </ul>
       </li>
 	 <li class="nav-item active">
-        <a class="nav-link" href="#About US">About Us<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#Account">Account <span class="sr-only">(current)</span></a>
         <ul>
-          <li><a href="Donation">Trustees</a></li>
-          <li><a href="Volunteering">Team<br>Members</a></li>
+          <li><a href="/login">Login</a></li>
+          <li><a href="/register">Register</a></li>
         </ul>
       </li>
 
