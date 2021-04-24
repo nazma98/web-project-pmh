@@ -146,17 +146,18 @@
     </div>
 </section>
  <!--Donor Details add-->
-<section id="adddonor">
-<h2>Fill The Form to be a Donor</h2>
+<section id="adddonor" >
+<div class="text-black">
+<h2 align="center">Fill The Form to be a Donor</h2>
  <form class="row g-3" action="add" method="POST">
  @csrf
  <div class="col-md-6">
     <label for="inputName4" class="form-label">Name</label>
-    <input type="name" name="name" class="form-control" id="inputName4">
+    <input type="name" name="name" class="form-control" id="inputName4" placeholder="Sabrina Afrin">
   </div>
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" name="email" class="form-control" id="inputEmail4">
+    <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="tomaju304@gmail.com">
   </div>
   <div class="col-12">
     <label for="inputAddress" class="form-label">Address</label>
@@ -170,14 +171,21 @@
     <label for="inputdonation" class="form-label">Want to donate</label>
     <input type="text"  name="want_to_donate" class="form-control" id="inputdonation" placeholder="Blood">
   </div>
-  
+  <div class="col-12">
+    <label for="bloodGroup" class="form-label">Blood Group</label>
+    <input type="text"  name="blood_group" class="form-control" id="bloodGroup" placeholder="A+">
+    <small id="bloodHelp" class="form-text text-muted">If you are not donating blood please 'Null' in this field</small>
+  </div>
+  </div>
   
   <div class="col-12">
     <button type="submit" class="btn btn-primary">Add Me as a donor</button>
   </div>
 </form>
-
+</div>
 </section>
+
+<!--Show Donor List-->
 <section id="showlist">
 <div class="container">
 <div class="row">

@@ -14,16 +14,19 @@
   <link rel="stylesheet" href="styles/styledonation.css">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-<h3>Donor List</h3>
-  <table border="1">
+<section id="showlist">
+<h3 class="h3">Donor List</h3>
+  <table class="table">
+  <thead class="thead-dark">
   <tr>
-  <td>Name</td>
-  <td>Email</td>
-  <td>Address</td>
-  <td>Contact no</td>
-  <td>Want to donate</td>
+  <th scope="col">Name</th>
+  <th scope="col">Email</th>
+  <th scope="col">Address</th>
+  <th scope="col">Contact no</th>
+  <th scope="col">Want to donate</th>
+  <th scope="col">Bood Group</th>
   </tr>
-  
+  </thead>
   @foreach($donors as $donor)
   <tr>
   <td>{{$donor['name']}}</td>
@@ -31,9 +34,11 @@
   <td>{{$donor['address']}}</td>
   <td>{{$donor['contact_no']}}</td>
   <td>{{$donor['want_to_donate']}}</td>
+  <td>{{$donor['blood_group']}}</td>
   </tr>
   @endforeach
   </table>
+  </section>
   </body>
 </html>
 @endsection

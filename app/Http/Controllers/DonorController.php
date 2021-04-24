@@ -15,6 +15,7 @@ class DonorController extends Controller
         $donor->address=$req->address;
         $donor->contact_no=$req->contact_no;
         $donor->want_to_donate=$req->want_to_donate;
+        $donor->blood_group=$req->blood_group;
         $donor->save();
         return redirect('add');
         
