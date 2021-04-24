@@ -5,7 +5,7 @@ use App\Http\Controllers\BotManController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Auth;
-
+use App\Http\Controllers\DonorController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -116,3 +116,10 @@ Route::group(['prefix'=>'user', 'middleware'=>['isUser','auth','PreventBackHisto
     Route::get('profile',[UserController::class, 'profile'])->name('user.profile');
     Route::get('settings',[UserController::class, 'settings'])->name('user.settings');
 }); 
+
+Route::get('add', function () {
+    return view('pages.donation');
+});
+Route::post('add',[DonorController::class,'addData']);
+
+Route::get('showdonor',[DonorController::class,'show']);
