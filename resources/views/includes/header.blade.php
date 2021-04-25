@@ -45,7 +45,7 @@
         <ul>
           <li><a href="/Story_telling">Share To<br>Inspire</a></li>
           <li><a href="/bot">Normal<br>chat</a></li>
-          <li><a href="/counsiling">Counsiling</a></li>
+          
         </ul>
       </li>
 	  <li class="nav-item active">
@@ -61,6 +61,7 @@
         <ul>
           <li><a href="/donation">Donation</a></li>
           <li><a href="/volunteering">Volunteer<br>Hiring</a></li>
+            <li><a href="/counsiling">Counsiling</a></li>
         </ul>
       </li>
 	 <li class="nav-item active">

@@ -28,15 +28,12 @@
         </div>
 
         <div class="box">
-            <h1>Where To Share-"Shareboard"</h1>
-            <p>
-     <b>Here is the link to go that platform where you can share your thoughts or any information which will help others</b>
-                <br>
-                <br>
-                <p>
-                  <a class="btn btn-primary text-center" href="http://localhost/shareboard/">Share</a>
-            </p>
+          	<h1>Welcome To ShareBoard</h1>
+	<p>Find something inspiring?Or do you want to say something about your personal thoughts or experience? Share it with our community. Look at other shares as well</p>
+	<a class="btn btn-primary text-center" href="/seepost">See Post</a>
+    <a class="btn btn-primary text-center" href="/sharepost">Share Now</a>
         </div>
+
 
       
 

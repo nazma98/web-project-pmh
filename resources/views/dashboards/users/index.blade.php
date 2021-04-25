@@ -6,11 +6,9 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
-
-                <h4>Hi user: {{Auth::user()->name}}</h1>
+                <h4>Hi user: {{ Auth::user()->name }}</h1>
                 <hr>
                 Dashboard
-
                 <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
@@ -25,3 +23,4 @@
     </div>
 </div>
 @endsection
+

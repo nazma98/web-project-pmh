@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BotManController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\musicController;
+use App\Http\Controllers\shareboardcontroller;
 use Illuminate\Support\Facades\Auth;
 
 /*
@@ -40,9 +42,7 @@ Route::get('poems', function () {
 Route::get('astro', function () {
     return view('pages.testAst');
 });
-Route::get('music', function () {
-    return view('pages.music');
-});
+
 Route::get('movies', function () {
     return view('pages.movies');
 });
@@ -94,8 +94,25 @@ Route::get('/steps2', function () {
 Route::get('/counsiling', function () {
     return view('pages.counselling');
 });
+Route::get('/seepost', function () {
+    return view('pages.seepost');
+});
+
+Route::get('/sharepost', function () {
+    return view('pages.sharepost');
+});
+Route::get('/uploadMusic', function () {
+    return view('pages.uploadMusic');
+});
+Route::get('seepost', [shareboardcontroller::class, 'showPost']);
+Route::post('seepost', [shareboardcontroller::class, 'doShare']);
 
 Route::match(['get', 'post'], '/botman', [BotManController::class, 'start']);
+Route::get('music',[musicController::class, 'showMusic']);
+Route::post('music',[musicController::class, 'storeMusic']);
+
+
+
 
 Route::middleware(['middleware'=>'PreventBackHistory'])->group(function() {
     Auth::routes();

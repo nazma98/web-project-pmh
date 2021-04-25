@@ -80,79 +80,43 @@ So the next time you face a daunting task, think of a strategic musical choice t
                         
                         <a class="btn btn-primary text-center" href="https://www.youtube.com/results?search_query=Happy+songs">Listen Happy Music    </a>
                         <a class="btn btn-primary text-center" href="https://freemp3cloud.com/">Download Songs     </a>
+                        <br>
+                       
                         
                     </p>
                 </div><hr>
+            <div class="box2">
+                    <h1>Music Resourses</h1>
+                    <p>
+                    Do you want to add you song in this playlist?Please add this.If you want to upload other music in this playlist feel free to do that.<br>
+                    Just click the below link to upload music.<br>
+                       
+                     <br>
 
-        <div class="music-info">
-            <div class="music-img">
-                <img src="images/Aklacholore.jpg"> 
-            </div>
+                        <a class="btn btn-primary text-center" href="/uploadMusic">Upload Music     </a>
+                        
+                    </p>
+                </div><hr>
+            @foreach($music as $music)
+                      <div class="music-info">
 
+                <div class="music-img"> 
+                    <img src="storage/{{ $music->Music_Image }}">
+            </div>      
             <div class="music-name">
-                <h6>Akla Cholo Re</h6>
-                <p>Singer:Amitabh Bachchan</p>
+                 <h6>{{ $music->Music_Name }}</h6>
+                <p>Singer:{{ $music->Music_Singer }}</p>
                 <audio controls>
-                    <source src="audio/akla.mp3">
+                    <source src="storage/{{ $music->Music_Audio_File }}">
                 </audio>
             </div>
 
             <i class="fa fa-ellipsis-v"></i>
         </div><hr>
-        <div class="music-info">
-            <div class="music-img">
-                <img src="images/Loveyouzindagi.jpg"> 
-            </div>
-            <div class="music-name">
-                <h6>Love You Zindagi</h6>
-                <p>Singer:Jesleen Royal</p>
-
-                <audio controls>
-                    <source src="audio/Dear Zindagi.mp3">
-                </audio>
-            </div>
-            <i class="fa fa-ellipsis-v"></i>
-        </div><hr>
-        <div class="music-info">
-            <div class="music-img">
-                <img src="images/Letitgo.jpg"> 
-            </div>
-            <div class="music-name">
-                <h6>Let It Go</h6>
-                    <p>Singer:Idina Manzel</p>
-                    <audio controls>
-                        <source src="audio/Letitgo.mp3">
-                    </audio>
-            </div>
-            <i class="fa fa-ellipsis-v"></i>
-        </div><hr>
-        <div class="music-info">
-            <div class="music-img">
-                <img src="images/Fightsong.jpg"> 
-            </div>
-            <div class="music-name">
-                <h6>Fight Song</h6>
-                <p>Singer:Rachel platten</p>
-                <audio controls>
-                    <source src="audio/Fight Song.mp3">
-                </audio>
-            </div>
-            <i class="fa fa-ellipsis-v"></i>
-        </div><hr>
-        <div class="music-info">
-            <div class="music-img">
-                <img src="images/Invisible.jpg"> 
-            </div>
-            <div class="music-name">
-                <h6>Invisible</h6>
-                <p>Singer:Zara Larsson</p>
-                <audio controls>
-                    <source src="audio/Invisible.mp3">
-                </audio>
-            </div>
-            <i class="fa fa-ellipsis-v"></i>
-        </div><hr>
+        @endforeach
+        
     </div>
+    
 
 </div>
 

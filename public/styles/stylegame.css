@@ -19,6 +19,7 @@ body{
     background-image:linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
 
 }
+
 .music-header .title{
     width:500px;
     height: 100px;
@@ -104,6 +105,9 @@ body{
     background-image:linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
     box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
     
+}
+.box2 p{
+    font-size: 20px;
 }
 
 .music-box .fa-ellipsis-v{
