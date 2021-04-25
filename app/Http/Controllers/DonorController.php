@@ -8,7 +8,7 @@ use App\Models\Donor;
 class DonorController extends Controller
 {
     //
-    public function addData(Request $req){
+    function addData(Request $req){
         $donor=new Donor;
         $donor->name=$req->name;
         $donor->email=$req->email;
@@ -19,7 +19,7 @@ class DonorController extends Controller
         $donor->save();
         return redirect('add');
     }
-    public function show()
+    function show()
         {
             $data= Donor::all();
             return view('pages.showdonor',['donors'=>$data]); 
