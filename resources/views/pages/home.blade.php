@@ -11,13 +11,13 @@
   <link rel="stylesheet" href="styles\stylehome.css">
 
 
-<body>
+
+  <body>
         <div class="music-header">
             <div class="title">
                 <marquee><h1>Follow Your Dreams</h1></marquee>
             </div>
     </div>
-    
     
 
 
