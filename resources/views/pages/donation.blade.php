@@ -95,7 +95,7 @@
             </div>
             <div class="col-md-6 text-center">
                 <img src="images\smile.png" alt="Home"> 
-                <a class="btn btn-primary" href="#adddonor" role="button">Become a donor</a>
+                <a class="btn btn-primary" href="https://forms.gle/6GuE2MXsYRvkJsG69" role="button">Become a donor</a>
                
     
             </div>
@@ -140,68 +140,11 @@
          <p>Contact: 01616136091</p>
          <p>Gmail: <a href=" tomaju304@gmail.com"> tomaju304@gmail.com </a></p>
          <p>Please Fill this form so that we can contact you whenever we held a physical campaign</p>
-         <a class="btn btn-primary" href="#adddonor" role="button">Click Here</a>
+         <a class="btn btn-primary" href="https://forms.gle/EEgmB4mSrUwQdsEWA" role="button">Click Here</a>
         </div>
       </div>
     </div>
 </section>
- <!--Donor Details add-->
-<section id="adddonor" >
-<div class="text-black">
-<h2 align="center">Fill The Form to be a Donor</h2>
- <form class="row g-3" action="add" method="POST">
- @csrf
- <div class="col-md-6">
-    <label for="inputName4" class="form-label">Name</label>
-    <input type="name" name="name" class="form-control" id="inputName4" placeholder="Sabrina Afrin">
-  </div>
-  <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="tomaju304@gmail.com">
-  </div>
-  <div class="col-12">
-    <label for="inputAddress" class="form-label">Address</label>
-    <input type="text"  name="address" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="col-12">
-    <label for="inputContact4" class="form-label">Contact No</label>
-    <input type="text"  name="contact_no" class="form-control" id="inputContact4" placeholder="01*********">
-  </div>
-  <div class="col-12">
-    <label for="inputdonation" class="form-label">Want to donate</label>
-    <input type="text"  name="want_to_donate" class="form-control" id="inputdonation" placeholder="Blood">
-  </div>
-  <div class="col-12">
-    <label for="bloodGroup" class="form-label">Blood Group</label>
-    <input type="text"  name="blood_group" class="form-control" id="bloodGroup" placeholder="A+">
-    <small id="bloodHelp" class="form-text text-muted">If you are not donating blood please 'Null' in this field</small>
-  </div>
-  </div>
-  
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Add Me as a donor</button>
-  </div>
-</form>
-</div>
-</section>
-
-<!--Show Donor List-->
-<section id="showlist">
-<div class="container">
-<div class="row">
-
-<div class="col-md-6 text-center">
-<h2 class="Promo-title">Looking For a Donor?</h2>
-<p>If you need blood or looking for a donor then look at the list to check if it could help you.</p>
-<a href="/showdonor"><button type="submit" class="btn btn-primary">Show Donor List</button></a>
-</div >
-<div class="col-md-6 text-center">
-<img src="images\smilingstar.png" alt="Smiling Star" width="250px" height="250px">
-</div>
-</div>
-</div>
- <section>
 </body>
-
 </html>
 @endsection
