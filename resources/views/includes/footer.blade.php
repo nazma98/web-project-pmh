@@ -2,7 +2,7 @@
         <div class="footer-w">
             <div class="img">
                 <!--CUSTOM IMG-->
-                <img src="public\images\Logo1.png" alt="supportImage">
+                <img src="images\Logo1.png" alt="supportImage">
             </div>
             <div class="m-left" >
                 <!--HEADING-->

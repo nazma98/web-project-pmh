@@ -18,10 +18,6 @@ class DonorController extends Controller
         $donor->blood_group=$req->blood_group;
         $donor->save();
         return redirect('add');
-        
-        
-
-
     }
     function show()
         {
