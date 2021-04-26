@@ -57,66 +57,42 @@
                                                <a class="btn btn-primary text-center" href="https://www.bing.com/videos/search?q=Religious+video+for+motivation&qpvt=Religious+video+for+motivation&FORM=VDRE">Religious Videos For Motivation</a>
                     </p>
                 </div><hr>
-
-
-        <div class="movie-info">
-            <div class="movie-img">
-                <img src="images/Loveyouzindagi.jpg"> 
-            </div>
-
+             
+             @foreach($videos as $video)
+                      <div class="movie-info">
+                <div class="movie-img"> 
+                    <img src="storage/{{ $video->Video_Image }}">
+            </div>      
             <div class="movie-name">
-                <h6>Motivational Video Playlist</h6>
-                <p><a class="btn btn-success text center" href="https://www.youtube.com/playlist?list=PLUKRqQ8cSB-DCDuEl5vYogIMH9ph-7OP7">Click Here</a></p>
+                <h6>{{ $video->Video_Name }}</h6>
+                <br>
+                <br>
+                <a href="{{ $video->Video_Link }}" target="_blank"><button>Go To Video Source</button></a>
             </div>
-
+            <i class="fa fa-ellipsis-v"></i>
         </div><hr>
-   
-              <div class="movie-info">
-            <div class="movie-img">
-                <img src="images/Loveyouzindagi.jpg"> 
-            </div>
+        @endforeach
+        
+        
+        
+        
+        
+                    <div class="box2">
+                    <h1>Motivational Video Resourses</h1>
+                    <p>
+                    Do you want to add your video in this playlist?Please add this.If you want to upload other video in this playlist feel free to do that.<br>
+                    Just click the below link to upload video link here by hosting that video somewhere else amd make that video there public to view.<br>
+                       
+                     <br>
 
-                       <div class="movie-name">
-                <h6>Motivational Video Playlist</h6>
-                <p><a class="btn btn-success text center" href="https://www.youtube.com/playlist?list=PLUKRqQ8cSB-DCDuEl5vYogIMH9ph-7OP7">Click Here</a></p>
-            </div>
-
-        </div><hr>
-    
-               <div class="movie-info">
-            <div class="movie-img">
-                <img src="images/Loveyouzindagi.jpg"> 
-            </div>
-
-                        <div class="movie-name">
-                <h6>Motivational Video Playlist By Sandeep Maheshwari</h6>
-                <p><a class="btn btn-success text center" href="https://www.youtube.com/watch?v=psgjh9jFyMs&list=PLT6xVd5QSO4iB2iqJc3yk6AwPvpv8MM6S">Click Here</a></p>
-            </div>
-
-        </div><hr>
-                <div class="movie-info">
-            <div class="movie-img">
-                <img src="images/Loveyouzindagi.jpg"> 
-            </div>
-
-                   <div class="movie-name">
-                <h6>Motivational Speech By Muziba Mazari</h6>
-                <p><a class="btn btn-success text center" href="https://www.youtube.com/watch?v=fBnAMUkNM2k">Click Here</a></p>
-            </div>
-
-        </div><hr>
-                <div class="movie-info">
-            <div class="movie-img">
-                <img src="images/Loveyouzindagi.jpg"> 
-            </div>
-
-              <div class="movie-name">
-                <h6>Motivational Speech By Emma Watson</h6>
-                <p><a class="btn btn-success text center" href="https://www.youtube.com/watch?v=UjI_bspcUHA">Click Here</a></p>
-            </div>
+                        <a class="btn btn-primary text-center" href="/uploadVideo">Upload Video Link</a>
+                        
+                    </p>
+                </div><hr>
+        
 
 
-        </div><hr>
+        
 
     </div>
 

@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" >
        <!-- <link rel="stylesheet" href="styles/style.css">-->
         <link rel="stylesheet" href="styles/styleMusic.css">
+
 <body>
 <div class="music-container">
  
@@ -85,18 +86,17 @@ So the next time you face a daunting task, think of a strategic musical choice t
                         
                     </p>
                 </div><hr>
-            <div class="box2">
-                    <h1>Music Resourses</h1>
-                    <p>
-                    Do you want to add you song in this playlist?Please add this.If you want to upload other music in this playlist feel free to do that.<br>
-                    Just click the below link to upload music.<br>
-                       
-                     <br>
+        
+        
+        
+        <div class="box2">
+            <h1>Search Music</h1>
+<form class="example" method="get" action="{{url('/searchmusic')}}">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+        </div><hr>
 
-                        <a class="btn btn-primary text-center" href="/uploadMusic">Upload Music     </a>
-                        
-                    </p>
-                </div><hr>
             @foreach($music as $music)
                       <div class="music-info">
 
@@ -114,6 +114,18 @@ So the next time you face a daunting task, think of a strategic musical choice t
             <i class="fa fa-ellipsis-v"></i>
         </div><hr>
         @endforeach
+                    <div class="box2">
+                    <h1>Music Resourses</h1>
+                    <p>
+                    Do you want to add you song in this playlist?Please add this.If you want to upload other music in this playlist feel free to do that.<br>
+                    Just click the below link to upload music.<br>
+                       
+                     <br>
+
+                        <a class="btn btn-primary text-center" href="/uploadMusic">Upload Music     </a>
+                        
+                    </p>
+                </div><hr>
         
     </div>
     

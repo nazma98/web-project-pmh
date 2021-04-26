@@ -8,6 +8,8 @@ use App\Http\Controllers\musicController;
 use App\Http\Controllers\shareboardcontroller;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\DonorController;
+use App\Http\Controllers\movieController;
+use App\Http\Controllers\videoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -104,14 +106,42 @@ Route::get('/sharepost', function () {
 Route::get('/uploadMusic', function () {
     return view('pages.uploadMusic');
 });
+Route::get('/uploadMovie', function () {
+    return view('pages.uploadMovie');
+});
+
+Route::get('/uploadVideo', function () {
+    return view('pages.uploadVideo');
+});
+Route::get('/searchmusic', function () {
+    return view('pages.searchmusic');
+});
+
+Route::get('/searchmovie', function () {
+    return view('pages.searchmovie');
+});
+Route::get('add', function () {
+    return view('pages.donation');
+});
+Route::post('add',[DonorController::class,'addData']);
+
+Route::get('showdonor',[DonorController::class,'show']);
+
 Route::get('seepost', [shareboardcontroller::class, 'showPost']);
 Route::post('seepost', [shareboardcontroller::class, 'doShare']);
 
 Route::match(['get', 'post'], '/botman', [BotManController::class, 'start']);
+
 Route::get('music',[musicController::class, 'showMusic']);
 Route::post('music',[musicController::class, 'storeMusic']);
+Route::get('searchmusic',[musicController::class, 'searchMusic']);
 
+Route::get('movies',[movieController::class, 'showMovie']);
+Route::post('movies',[movieController::class, 'storeMovie']);
+Route::get('searchmovie',[movieController::class, 'searchMovie']);
 
+Route::get('svideo',[videoController::class, 'showVideo']);
+Route::post('svideo',[videoController::class, 'storeVideo']);
 
 
 Route::middleware(['middleware'=>'PreventBackHistory'])->group(function() {
@@ -134,9 +164,3 @@ Route::group(['prefix'=>'user', 'middleware'=>['isUser','auth','PreventBackHisto
     Route::get('settings',[UserController::class, 'settings'])->name('user.settings');
 }); 
 
-Route::get('add', function () {
-    return view('pages.donation');
-});
-Route::post('add',[DonorController::class,'addData']);
-
-Route::get('showdonor',[DonorController::class,'show']);

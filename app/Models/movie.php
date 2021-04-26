@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class donor extends Model
+class movie extends Model
 {
-    protected $fillable=['name','email','address','contact_no','want_to_donate','blood_group'];
+    protected $fillable=['Movie_Name','Movie_Director','Movie_Image','Movie_Description','Movie_Link'];
 }

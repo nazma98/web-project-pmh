@@ -25,37 +25,14 @@
             </div>
         </div>
     </div>
-    <div class="movie-box">
-
-                    <div class="box2">
-                    <h1>Why do we watch movies?</h1>
-                    <p>
-        Movie is a way of telling stories or share experience.We all agree movies allow us to escape and there’s value in that but it’s more than simple escapism. Movies take us to places we’ve never been and inside the skin of people quite different from ourselves. They offer us a window onto the wider world, broadening our perspective and opening our eyes to new wonders.
-                    </p>
-              </div>
-                 <div class="box2">
-                    <h1>Movie Resourses</h1>
-                    <p>
-                     Here we are presenting some resources,by using these resourses you will get about idea about some good movies.You will able to decide which movie should you watch.
-                     <br>
-                        <br>
-                        
-                        <a class="btn btn-success text-center" href="                        https://www.elle.com/uk/life-and-culture/culture/news/a33440/best-happy-films-movies-list/">List Of Movies Which Will Make You Happy</a>
-                        <a class="btn btn-success text-center" href="https://blog.runrun.it/en/motivational-movies/">Motivational Movies on Leadership</a>
-                        <a class="btn btn-success text-center" href="https://leverageedu.com/blog/motivational-movies-for-students/">Motivational Movies For Students</a>
-                        <a class="btn btn-success text-center" href="https://www.imdb.com/">Overall Information About Movies-IMDb</a>
-
-                    </p>
-                      </div><hr>
-                <div class="box2">
+            <div class="box2">
             <h1>Search Movie</h1>
 <form class="example" method="get" action="{{url('/searchmovie')}}">
   <input type="text" placeholder="Search.." name="search">
   <button type="submit"><i class="fa fa-search"></i></button>
 </form>
         </div><hr>
-
-            @foreach($movies as $movie)
+                @foreach($movies as $movie)
                       <div class="movie-info">
                 <div class="movie-img"> 
                     <img src="storage/{{ $movie->Movie_Image }}">
@@ -69,7 +46,6 @@
             <i class="fa fa-ellipsis-v"></i>
         </div><hr>
         @endforeach
-                                     </div><hr>
 
 
                     <div class="box2">
@@ -93,4 +69,3 @@
    </body>    
   @endsection
               
-   

@@ -10,26 +10,22 @@
     <div class="music-box">
         <div class="box2">
           <div class="panel-body">
-    <form method="POST" action="{{url('/music')}}" enctype="multipart/form-data">
+    <form method="POST" action="{{url('/svideo')}}" enctype="multipart/form-data">
         @csrf
     	<div class="form-group">
-    		<label>Music Name</label>
-    		<input type="text" name="Music_Name" class="form-control" />
-    	</div>
-            	<div class="form-group">
-    		<label>Singer Name</label>
-    		<input type="text" name="Music_Singer" class="form-control" />
+    		<label>Video Name</label>
+    		<input type="text" name="Video_Name" class="form-control" />
     	</div>
     	<div class="form-group">
-    		<label>Music Image</label>
-    		<input type="file" name="Music_Image" class="form-control"/> 
+    		<label>Video Image</label>
+    		<input type="file" name="Video_Image" class="form-control"/> 
     	</div>
     	<div class="form-group">
-    		<label>Audio File</label>
-    		<input type="file" name="Music_Audio_File" class="form-control" />
+    		<label>Link</label>
+    		<input type="text" name="Video_Link" class="form-control" />
     	</div>
     	<input class="btn btn-primary" name="submit" type="submit" value="Upload" />
-        <a class="btn btn-danger" href="/music">Cancel</a>
+        <a class="btn btn-danger" href="/svideo">Cancel</a>
     </form>
               
   </div>

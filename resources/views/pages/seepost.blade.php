@@ -19,7 +19,6 @@
             <br>
             <a class="btn btn-primary" href="{{ $post->link }}" target="_blank"><p>Go To Website</p></a>
             <br> 
-       
         </div>
 		<br>
     </div>

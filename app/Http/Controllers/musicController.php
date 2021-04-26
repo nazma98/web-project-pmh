@@ -36,10 +36,12 @@ class musicController extends Controller
 
         
     }
-    public function showAll()
+    public function searchMusic()
     {
-        $music=music::all();
-        return view('pages.music',compact($music));
+        $search_music=$_GET['search'];
+        $musics=music::where('Music_Name',"like",'%'.$search_music.'%')->get();
+        return view('pages.searchmusic',['music'=>$musics]);
     }
+
         
 }
