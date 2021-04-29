@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\DonorController;
 use App\Http\Controllers\movieController;
 use App\Http\Controllers\videoController;
+use App\Http\Controllers\AdminViewShareController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,8 +21,33 @@ use App\Http\Controllers\videoController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
+    return view('pages.guest');
+});
+Route::get('garts', function () {
+    return view('guest.arts');
+});
+Route::get('gastro', function () {
+    return view('guest.testAst');
+});
+Route::get('gpoems', function () {
+    return view('guest.poems');
+});
+Route::get('gtravelling', function () {
+    return view('guest.travel');
+});
+Route::get('gFirstAid', function () {
+    return view('guest.firstaid');
+});
+Route::get('gtodolist', function () {
+    return view('guest.todolist');
+});
+Route::get('gtvideo', function () {
+    return view('guest.tvideo');
+});
+
+
+Route::get('home', function () {
     return view('pages.home');
 });
 
@@ -149,7 +175,7 @@ Route::middleware(['middleware'=>'PreventBackHistory'])->group(function() {
 });
 
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index']);
 
 Route::group(['prefix'=>'admin', 'middleware'=>['isAdmin','auth','PreventBackHistory']], function() {
     Route::get('dashboard',[AdminController::class, 'index'])->name('admin.dashboard');
@@ -164,3 +190,9 @@ Route::group(['prefix'=>'user', 'middleware'=>['isUser','auth','PreventBackHisto
     Route::get('settings',[UserController::class, 'settings'])->name('user.settings');
 }); 
 
+
+Route::get('adminBlog',[AdminViewShareController::class,'showPost']);
+Route::get('delete/{id}',[AdminViewShareController::class,'delete']);
+
+//Route::get('adminMusic',[AdminViewShareController::class,'showMusic']);
+//Route::get('delete/{id}',[AdminViewShareController::class,'deleteMusic']);

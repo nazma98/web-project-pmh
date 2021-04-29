@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.appUser')
 @section('content')
 <link rel="stylesheet" href="styles/stylestorytelling.css">
 <body>

@@ -13,7 +13,7 @@ class CreateShareTable extends Migration
      */
     public function up()
     {
-        Schema::create('share', function (Blueprint $table) {
+        Schema::create('shares', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
             $table->string('title');
@@ -32,6 +32,6 @@ class CreateShareTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('share');
+        Schema::dropIfExists('shares');
     }
 }

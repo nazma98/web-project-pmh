@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
-  @extends('layouts.master')
+  @extends('layouts.appUser')
 @section('content')
     <title>Donate Now</title>
   <meta charset="utf-8">

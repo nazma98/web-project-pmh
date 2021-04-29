@@ -9,14 +9,14 @@ class shareboardcontroller extends Controller
 {
     public function showPost()
     {
-        $shares=DB::table('share')->get()->toArray();
-        return view('pages.seepost',['share'=>$shares]);
+        $shares=DB::table('shares')->get()->toArray();
+        return view('pages.seepost',['shares'=>$shares]);
     }
     public function doShare(Request $request)
     {
         $message='';
         $inputs=$request->all();
-        $res=DB::table('share')->insert([
+        $res=DB::table('shares')->insert([
             'title'=>$inputs['title'],
             'topic'=>$inputs['topic'],
             'body'=>$inputs['body'],

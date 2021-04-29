@@ -1,5 +1,5 @@
 
-@extends('layouts.master')
+@extends('layouts.appUser')
 @section('content')
 <!doctype html>
 <html lang="en">

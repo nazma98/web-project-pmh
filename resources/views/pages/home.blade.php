@@ -1,5 +1,5 @@
 
-@extends('layouts.master')
+@extends('layouts.appUser')
 @section('content')
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="styles\stylehome.css">
+  <link rel="stylesheet" href="{{asset('styles/stylehome.css')}}">
 
 
 
@@ -31,7 +31,7 @@
             </div>
       
             <div class="col-md-3 mb-4">
-              <img src="images\homeicon.png" width="200" height="200" class="img-fuild rounded-circle border border-light">
+              <img src="{{asset('images\homeicon.png')}}" width="200" height="200" class="img-fuild rounded-circle border border-light">
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@
       <h4>We are here to be with you all the time you need.If you want to read books, news, blogs go to the reading section. If you want to have music, movies recommendation go to the entertainment section . If you admire the nature have a visit on our nature sector where you can find astronomy related topics, beautiful natural pictures. We the 21st generation get depressed easily by our surroundings. Why not let those go and give some time to us? Time to ouur family? Hey! You can also have some cooking tips to do with your family or alone. This is your life so enjoy it!</h4>
     </div>
     <div class="col-md-4 mb-4">
-      <img src="images\Ourgoal.png" alt="" width="450" height="420">
+      <img src="{{asset('images\Ourgoal.png')}}" alt="" width="450" height="420">
     </div>
   </div>
 </div>
@@ -56,7 +56,7 @@
   <div class="row">
     <div class="col-sm-7">
         <video width="640" height="360" controls class="vid" >
-            <source src="videos\Weataglance.mp4" type="video/mp4">
+            <source src="{{asset('videos\Weataglance.mp4')}}" type="video/mp4">
           </video>
       </div>
       <div class="col-sm-5">

@@ -1,0 +1,23 @@
+
+table{
+        border-collapse :collapse;
+        width:85%;
+        color:#000000;
+        font-family:monospace;
+        font-size:15px;
+       /* text-aign:left; */
+       margin-left:14%;
+       margin-right: 2%;
+    }
+th{
+        background-color:#011b25;
+        color:white;
+        height: 5vh;
+        font-size: 120%;
+        text-align: center;
+    }
+
+    td{
+        text-align: center;
+        padding: 1.6%;
+    }

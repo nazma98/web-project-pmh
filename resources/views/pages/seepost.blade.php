@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.appUser')
 @section('content')
 <link rel="stylesheet" href="styles/stylestorytelling.css">
 <body>
@@ -6,7 +6,7 @@
             <h1>Welcome To Share Board</h1>
          <a class="btn btn-primary text-center" href="/sharepost">Share Now</a>
     </div>
-     @foreach($share as $post)
+     @foreach($shares as $post)
     <div class="box">
         <div class="well">
             <h2><strong>Title:</strong>{{ $post->title }}</h2>

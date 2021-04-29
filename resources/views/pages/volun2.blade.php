@@ -1,7 +1,7 @@
  
 <head>
 
-    @extends('layouts.master')
+    @extends('layouts.appUser')
    @section('content')
     <!-- Required meta tags -->
     <meta charset="utf-8">
