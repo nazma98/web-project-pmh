@@ -38,8 +38,8 @@
         <a class="nav-link" href="/reading">Reading <span class="sr-only">(current)</span></a>
         <ul>
           
-          <li><a href="/blogs">Blogs</a></li>
-          <li><a href="/poems">Poem</a></li>
+         
+          <li><a href="/poems">Literature</a></li>
           <li><a href="/arts">Arts</a></li>
         </ul>
       </li>
@@ -47,16 +47,15 @@
         <a class="nav-link" href="#Conversation">Conversation <span class="sr-only">(current)</span></a>
         <ul>
           <li><a href="/Story_telling">Share To<br>Inspire</a></li>
-          <li><a href="/bot">Normal<br>chat</a></li>
+          <li><a href="/bot">Normal<br>Chat</a></li>
           
         </ul>
       </li>
 	  <li class="nav-item active">
         <a class="nav-link" href="#Daily Hacks">Daily Hacks <span class="sr-only">(current)</span></a>
         <ul>
-            <li><a href="/todolist">To-Do-List</a></li>
           <li><a href="/FirstAid">First Aid</a></li>
-            <li><a href="/tvideo">Videos</a></li>
+            <li><a href="/tvideo">Craft<br>Videos</a></li>
         </ul>
       </li>
 	  <li class="nav-item active">

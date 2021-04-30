@@ -11,7 +11,11 @@ use App\Http\Controllers\DonorController;
 use App\Http\Controllers\movieController;
 use App\Http\Controllers\videoController;
 use App\Http\Controllers\AdminViewShareController;
+use App\Http\Controllers\AdminViewMusicController;
+use App\Http\Controllers\AdminViewVideoController;
+use App\Http\Controllers\AdminViewMovieController;
 /*
+
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
@@ -193,6 +197,12 @@ Route::group(['prefix'=>'user', 'middleware'=>['isUser','auth','PreventBackHisto
 
 Route::get('adminBlog',[AdminViewShareController::class,'showPost']);
 Route::get('delete/{id}',[AdminViewShareController::class,'delete']);
+Route::get('adminMusic',[AdminViewMusicController::class,'showPost']);
+Route::get('delete/{id}',[AdminViewMusicController::class,'delete']);
+Route::get('adminVideo',[AdminViewVideoController::class,'showPost']);
+Route::get('delete/{id}',[AdminViewVideoController::class,'delete']);
+Route::get('adminMovie',[AdminViewMovieController::class,'showPost']);
+Route::get('delete/{id}',[AdminViewMovieController::class,'delete']);
 
 //Route::get('adminMusic',[AdminViewShareController::class,'showMusic']);
 //Route::get('delete/{id}',[AdminViewShareController::class,'deleteMusic']);

@@ -29,7 +29,7 @@
         <a class="nav-link" href="/greading">Reading <span class="sr-only">(current)</span></a>
         <ul>
           
-          <li><a href="/gpoems">Poem</a></li>
+          <li><a href="/gpoems">Literature</a></li>
           <li><a href="/garts">Arts</a></li>
         </ul>
       </li>
@@ -37,7 +37,7 @@
 	  <li class="nav-item active">
         <a class="nav-link" href="#Daily Hacks">Daily Hacks <span class="sr-only">(current)</span></a>
         <ul>
-            <li><a href="/gtodolist">To-Do-List</a></li>
+          
           <li><a href="/gFirstAid">First Aid</a></li>
             <li><a href="/gtvideo">Videos</a></li>
         </ul>

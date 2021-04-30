@@ -1,4 +1,3 @@
-
 @extends('layouts.appUser')
 @section('content')
 <!doctype html>
@@ -10,12 +9,13 @@
 	
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" >
-<link rel="stylesheet" href="styles/reading.css" >
+<link rel="stylesheet" href="styles\reading.css" >
     
 	</head>
 	<body>
-<h1><i>Read through your eyes,<br>evolution your mind</i></h1>
+
  
+                        
 
 
 
@@ -34,12 +34,14 @@
 <div class="container"> 
     <div class="col-md-9 py-5 text-black">
         <div class="list-container">
+            <ul style="list-style-type:none;">
             <li><i><a href="#Life">Life</a></i></li>
             <li><i><a href="#Struggle">Struggle</a></i></li>
-            <li><i><a href="#Motivational">Motivatinal</a></i></li>
+            <li><i><a href="#Motivational">Motivational</a></i></li>
+            <li><i><a href="#Success">Success</a></i></li>
             <li><i><a href="#Self Love">Self Love</a></i></li>
              <li><i><a href="#Love"> Love</a></i></li>
-
+</ul>
         </div>
         </div>
         </div>
@@ -47,9 +49,11 @@
 
 
 <!-- POEMS -->
-<div class="navbar">
+<div class="img1"></div>
+    <section>
+
     <div class="container">
-        <a class="navbar-brand" href="/poems"><img src="images/life.png" alt="Logo" width="75px" height="75px"></a>
+        <a class="navbar-brand" href="poems.html"><img src="images\life.png" alt="Logo" width="75px" height="75px"></a>
     <h3><i>Live Your life</i></h3>
 
     <p><i> 
@@ -68,10 +72,15 @@
         Because life is too short to create 
         so many sweet memories.<br>
         </i></p>
+
 </div>
+</div>
+</section>
 </div>
     <!-- LIfe -->
-<div class="life-container" id="Life">
+    <div class="img1"></div>
+    <section>
+
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-9 py-5 text-black">
@@ -82,11 +91,14 @@
                       </i></p>
     </div>
 </div>
-         </div>
 </div>
+</section>
+
 <!-- MOtivational
  -->
- <div class="Motivational-container" id="Motivational">
+
+    <div class="img1"></div>
+    <section>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-9 py-5 text-black">
@@ -106,14 +118,15 @@
                      Without  bringing mental health stable we can't <br>
                     Ever progress our physical health. </i></p>
                 </div>
-                </div>
+            </div>
         </div>
-                </div>
-
+            </section>
+              
 
 
 <!-- Struggle -->
-
+<div class="img1"></div>
+    <section>
 
 <div class="struggle-container" id="Struggle">
     <div class="container">
@@ -134,14 +147,17 @@
 
                 </i></p>
                 </div>
-                </div></div>
                 </div>
+                </div>
+                </div>
+                </section>
 
 
 
 
 <!-- Self-love -->
-
+<div class="img1"></div>
+    <section>
 <div class="self-love-container" id="Self Love">
     <div class="container">
         <div class="row align-items-center">
@@ -156,15 +172,17 @@
     You yourself are the King of your kingdom.<br>
     
     </p>
-                </div>
-                </div></div>
-                </div>
 
 
     <div class="love" id="Love">
-        <div class="class-container">
+        <div class="container">
    <div class="row align-items-center">
-            <div class="col-md-9 py-5 text-black">         
+            <div class="col-md-9 py-5 text-black">
+
+
+                <div class="navbar">
+                    <div class="container">
+                       
    <p><i> May the time will change,<br>
      may the Universe will destroy one day,<br>
      may be the moments will loss their ability<br>
@@ -173,15 +191,20 @@
      but only the truth except of these which<br>
       I want to say u r the most <br>
     unexpected gift of anyone’s life...<br>
-    Be the real you so that the happiness are bound to come into your door<br>
+    Be the real you so that the happiness are bound to come into your door..<br>
     </i></p>
-       </div>
+    </div>
 </div>
 </div>
+</div>
 
+</div>
+</div>
+</section>
 
-
-
+<div class="img1"></div>
+    <section>
+<div class="container">
     <div class="class-container">
         <div class="row align-items-center">
             <div class="col-md-12 py-5 text-black">
@@ -197,14 +220,13 @@
             in this world who loves like that<br>
             There are human beings in this world<br>
             that would do anything just to care for you<br>
-            They exist.Believe that you are worthy of them<br></i>
+            They exist.Believe that you are worthy of them.<br></i>
         </p>
     </div>
     </div>
     </div>
     </div>
-
-
+    </section>
     
     <!-- <img src="Images\Home\study.jpg" alt="" width="100px" height="100px"></a -->
     <!-- <img src="Images\Home\study.jpg" width="640" height="360" class="image col-11"> -->
@@ -216,4 +238,5 @@
 
                         </body>
                         </html>
+
 @endsection

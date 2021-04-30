@@ -1,99 +1,167 @@
-
-body{
-    margin:0;
-    padding:0;
-
-	/* background-color:lightseagreen; */
-	background-color:burlywood;
+.container{
+    background-color:blanchedalmond; 
+     padding:10px;
     
-}
-.poems-container{
-    font-family: sans-serif;
-    width:100%;
-    height:200%;
-    display: block;
-    position:absolute;
-    background-color:darksalmon;
-    
-    
-}
-.list-container{
-     content: '';
-	/* position: absolute; */
-	left:10px;
-	top: 20px;
-	/* border-left: 6px solid transparent; */
-    text-decoration-color: darksalmon;
-    text-decoration-style: solid;
-    text-justify: auto;
-
-}
-
-.life{
-color:black;
-margin: 20px;
-text-align:center;
-padding:20px;
-border:15px solid white;
-}
-.navbar
+ }
+ .container-fluid{
+     border:3px solid blue;
+     background-color:cornsilk;
+     padding:15px;
+ }
+ 
+ 
+ html,body{
+     height:100%;
+     margin:0;
+     font-family: 'open Sans', sans-serif;
+     line-height: 180%;
+     color:black;
+     background-color:cornsilk;
+     text-align:center;
+ 
+ }
+ .navbar
 {
     max-width:1600px;
+    
+    border:15px solid white;
     background-color:lightcoral;
     padding:15px;
 }
 .navbar:container{
+    
     max-width:1600px;
     max-height:1000;
+    
     border:15px solid white;
     background-color:blueviolet;
     padding:15px;
+
 }
-.Motivational-container{
-	/* font-family: sans-serif; */
-    width:100%;
-    height:60%;
-    display: block;
-	background:lightsalmon fixed center;
-	text-align:center;
-    border:10px solid white;
-}
-.struggle-container{
-	width:100%;
-    height:60%;
-    display: block;
-	background:cornflowerblue  fixed center;
-	text-align:center;
-    margin: 100px 0 0 0;
-    border:10px solid white;
+
+ .img1{
+     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4bkUXW9YYwkYIgZBCEu7cCjTKHR5HMRc2Fw&usqp=CAU");
+     min-height:100%;
+ }
+ 
+ .img2{
+     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQgjQ0bU3ffg1n3oDTPBLMelGES1aq8e0RPg&usqp=CAU");
+     min-height: 60%;
+ }
+ .img3{
+
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFpifSShqvweHyI9ZBphDD8tILHgeDYvuPbA&usqp=CAU");
+    min-height: 100%;
+ }
+ .img4{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFpifSShqvweHyI9ZBphDD8tILHgeDYvuPbA&usqp=CAU");
+
+    min-height: 100%;
+ }
+ .img5{
+
+    background:url("H:\teacher2.png");
+   
+    min-height: 100%;
+    
+ }
+ .img6{
+    background:url("https://image.shutterstock.com/image-vector/young-girl-helps-old-woman-260nw-420704905.jpg");
+   
+    min-height: 100%;
     
 
+ }
+ .img7{
+    background:url("H:\myfood.png");
+   
+    min-height: 100%;
+
+ }
+ .img1,.img2,.img3,.img4,.img5,.img6,.img7 {
+    position: relative;
+    opacity: .85;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
-.self-love{
-	width:100%;
-    height:60%;
-    display: block;
-	text-align:center;
+ 
+ section{
+     padding :50px 80px;
+ }
+ .heading{
+ position: absolute;
+ top: 50%;
+ font-size:650%;
+ text-shadow: 0 0 15px #000;
 
-}
-.love{
-    width:100%;
-    height:60%;
-    display: block;
-	text-align:center;
-    
-    
-}
-.class-container{
-	width:100%;
-    height:100%;
-    display:block;
-	background:darkseagreen  fixed center;
-	text-align:center;
-    border:10px solid white;
-    margin: 50px 0 0 0;
-}
-
-
-
-
+ width: 100%;
+ text-transform: uppercase;
+ letter-spacing:8px;
+ 
+ }
+ .navbar
+ {
+     max-width:1600px;
+     max-height:600px;
+     
+     border:15px solid white;
+     background-color:wheat;
+     padding:15px;
+     text-align:center;
+     text-decoration-color: blue;
+     
+ }
+ .sticky {
+     position: fixed;
+     top: 0;
+     width: 100%;
+   }
+   
+ .img-container {
+     text-align: center;
+   }
+   .p{
+       text-align:center;
+   }
+ 
+ .navbar:a
+ {
+     max-width:1600px;
+     max-height:800px;
+     
+     border:15px solid white;
+     background-color:wheat;
+     padding:15px;
+     text-align:center;
+     text-decoration-color: blue;
+ }
+ #a
+ {
+     max-width:1600px;
+     max-height:800px;
+     
+ }
+ .p{
+     align:center;
+ }
+ .navbar:container{
+     
+     max-width:1600px;
+     max-height:1000;
+     
+     border:15px solid white;
+     background-color:blueviolet;
+     padding:15px;
+ 
+ }
+ .li{
+     text-decoration-color: crimson;
+     background-color: darkolivegreen;
+     text-decoration-style: solid;
+     color:blue;
+ }
+ .ul{
+     color:brown;
+ }

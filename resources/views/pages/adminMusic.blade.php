@@ -13,7 +13,7 @@
  
   <tr>
 
-@foreach ($musics as $item)
+@foreach ($music as $item)
    <tr>
        <td>{{ $item->id}}</td>
        <td>{{ $item->Music_Name }}</td>
