@@ -22,7 +22,7 @@ class AdminViewVideoController extends Controller
        // return view('adminBlog',['share'=>$data]);
     }
 
-    function delete($id) {
+    public function deletev($id) {
         $data = video::find($id);
         $data->delete();
         return redirect()->back();

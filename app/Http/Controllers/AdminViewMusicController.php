@@ -22,7 +22,7 @@ class AdminViewMusicController extends Controller
        // return view('adminBlog',['share'=>$data]);
     }
 
-    function delete($id) {
+    public function deletem($id) {
         $data = music::find($id);
         $data->delete();
         return redirect()->back();

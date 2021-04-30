@@ -18,7 +18,7 @@
        <td>{{ $post->Video_Image }}</td>
        <td>{{ $post->Video_Link }}</td>  
        <td>
-         <a href='delete/{{ $post->id }}'>Delete</a>    
+         <a href='deletev/{{ $post->id }}'>Delete</a>    
        </td>  
    </tr>
 @endforeach

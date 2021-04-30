@@ -21,7 +21,7 @@
        <td>{{ $item->Music_Image }}</td>
        <td>{{ $item->Music_Audio_File }}</td>  
        <td>
-         <a href='delete/{{ $item->id }}'>Delete</a>    
+         <a href='deletem/{{ $item->id }}'>Delete</a>    
        </td>  
    </tr>
 @endforeach

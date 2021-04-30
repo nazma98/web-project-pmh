@@ -23,7 +23,7 @@ class AdminViewShareController extends Controller
        // return view('adminBlog',['share'=>$data]);
     }
 
-    function delete($id) {
+    public function deleteb($id) {
         $data = Share::find($id);
         $data->delete();
         return redirect()->back();

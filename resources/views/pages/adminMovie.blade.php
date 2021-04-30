@@ -22,7 +22,7 @@
        <td>{{ $post->Movie_Image}}</td>
        <td>{{ $post->Movie_Link }}</td>  
        <td>
-         <a href='delete/{{ $post->id }}'>Delete</a>    
+         <a href='deleteo/{{ $post->id }}'>Delete</a>    
        </td>  
    </tr>
 @endforeach

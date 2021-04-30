@@ -21,7 +21,7 @@
        <td>{{ $post->body }}</td>
        <td>{{ $post->link }}</td>  
        <td>
-         <a href='delete/{{ $post->id }}'>Delete</a>    
+         <a href='deleteb/{{ $post->id }}'>Delete</a>    
        </td>  
    </tr>
 @endforeach
