@@ -1,8 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
-
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Models\music;
@@ -22,7 +20,7 @@ class AdminViewMusicController extends Controller
        // return view('adminBlog',['share'=>$data]);
     }
 
-    function delete($id) {
+    public function deletem($id) {
         $data = music::find($id);
         $data->delete();
         return redirect()->back();

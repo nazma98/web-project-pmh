@@ -13,16 +13,16 @@
     <th>Modify</th>
   <tr>
 
-@foreach ($movies as $post)
+@foreach ($movies as $movie)
    <tr>
-       <td>{{ $post->id}}</td>
-       <td>{{ $post->Movie_Name }}</td>
-       <td>{{ $post->Movie_Director }}</td>
-       <td>{{ $post->Movie_Description }}</td>
-       <td>{{ $post->Movie_Image}}</td>
-       <td>{{ $post->Movie_Link }}</td>  
+       <td>{{ $movie->id}}</td>
+       <td>{{ $movie->Movie_Name }}</td>
+       <td>{{ $movie->Movie_Director }}</td>
+       <td>{{ $movie->Movie_Description }}</td>
+       <td>{{ $movie->Movie_Image}}</td>
+       <td>{{ $movie->Movie_Link }}</td>  
        <td>
-         <a href='delete/{{ $post->id }}'>Delete</a>    
+         <a href='deleteo/{{ $movie->id }}'>Delete</a>    
        </td>  
    </tr>
 @endforeach

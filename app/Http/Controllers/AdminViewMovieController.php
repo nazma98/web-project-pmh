@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use App\Models\video;
+use App\Models\movie;
 
 class AdminViewMovieController extends Controller
 {
@@ -22,7 +22,7 @@ class AdminViewMovieController extends Controller
        // return view('adminBlog',['share'=>$data]);
     }
 
-    function delete($id) {
+    public function deleteo($id) {
         $data = movie::find($id);
         $data->delete();
         return redirect()->back();

@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class video extends Model
 {
-     protected $fillable=['Video_Name','Video_Image','Video_Link'];
+     use HasFactory;
 }

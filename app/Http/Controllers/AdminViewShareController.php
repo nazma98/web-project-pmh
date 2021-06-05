@@ -6,7 +6,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Models\Share;
-use App\Models\Music;
+
 
 class AdminViewShareController extends Controller
 {
@@ -23,7 +23,7 @@ class AdminViewShareController extends Controller
        // return view('adminBlog',['share'=>$data]);
     }
 
-    function delete($id) {
+    public function deleteb($id) {
         $data = Share::find($id);
         $data->delete();
         return redirect()->back();

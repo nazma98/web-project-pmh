@@ -11,14 +11,14 @@
     <th>Modify</th>
   <tr>
 
-@foreach ($videos as $post)
+@foreach ($videos as $video)
    <tr>
-       <td>{{ $post->id}}</td>
-       <td>{{ $post->Video_Name }}</td>
-       <td>{{ $post->Video_Image }}</td>
-       <td>{{ $post->Video_Link }}</td>  
+       <td>{{ $video->id}}</td>
+       <td>{{ $video->Video_Name }}</td>
+       <td>{{ $video->Video_Image }}</td>
+       <td>{{ $video->Video_Link }}</td>  
        <td>
-         <a href='delete/{{ $post->id }}'>Delete</a>    
+         <a href='deletev/{{ $video->id }}'>Delete</a>    
        </td>  
    </tr>
 @endforeach

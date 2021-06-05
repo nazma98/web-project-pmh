@@ -19,7 +19,7 @@ class CreateDonorsTable extends Migration
             $table->string('email');
             $table->string('address');
             $table->string('contact_no');
-            $table->string('want)to_donate');
+            $table->string('want_to_donate');
             $table->string('blood_group');
             $table->timestamps();
         });

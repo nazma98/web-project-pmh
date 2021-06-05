@@ -196,13 +196,13 @@ Route::group(['prefix'=>'user', 'middleware'=>['isUser','auth','PreventBackHisto
 
 
 Route::get('adminBlog',[AdminViewShareController::class,'showPost']);
-Route::get('delete/{id}',[AdminViewShareController::class,'delete']);
+Route::get('deleteb/{id}',[AdminViewShareController::class,'deleteb']);
 Route::get('adminMusic',[AdminViewMusicController::class,'showPost']);
-Route::get('delete/{id}',[AdminViewMusicController::class,'delete']);
+Route::get('deletem/{id}',[AdminViewMusicController::class,'deletem']);
 Route::get('adminVideo',[AdminViewVideoController::class,'showPost']);
-Route::get('delete/{id}',[AdminViewVideoController::class,'delete']);
+Route::get('deletev/{id}',[AdminViewVideoController::class,'deletev']);
 Route::get('adminMovie',[AdminViewMovieController::class,'showPost']);
-Route::get('delete/{id}',[AdminViewMovieController::class,'delete']);
+Route::get('deleteo/{id}',[AdminViewMovieController::class,'deleteo']);
 
 //Route::get('adminMusic',[AdminViewShareController::class,'showMusic']);
 //Route::get('delete/{id}',[AdminViewShareController::class,'deleteMusic']);
